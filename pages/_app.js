@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import { FeatureFlagProvider } from "../context/feature-flag.context";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <FeatureFlagProvider>
+      <Component {...pageProps} />
+    </FeatureFlagProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
