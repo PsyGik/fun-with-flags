@@ -1,0 +1,36 @@
+[
+  {
+    "name": "featureX",
+    "desc": "This is a description of the feature",
+    "type": "EXPERIMENT",
+    "conditions": [
+      {
+        "type": "COOKIES",
+        "name": "featureX",
+        "value": "BSE1191"
+      }
+    ]
+  },
+  {
+    "name": "featureY",
+    "desc": "This is a description of the feature",
+    "type": "RELEASE",
+    "conditions": [
+      {
+        "type": "DATE",
+        "value": "1673461800000"
+      }
+    ]
+  },
+  {
+    "name": "featureZ",
+    "desc": "This is a description of the feature",
+    "type": "OPS",
+    "conditions": [
+      {
+        "type": "BOOLEAN",
+        "value": true
+      }
+    ]
+  }
+]
